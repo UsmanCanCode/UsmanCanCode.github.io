@@ -1,0 +1,140 @@
+*{
+	box-sizing: border-box;
+}
+
+
+
+h1{
+	text-align: center;
+	font-family: Arial, "Times New Roman", sans-serif;
+	font-size: 175%;
+}
+
+.container{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 30px;
+
+
+
+	
+}
+
+
+.sectionContainer{
+	
+	height: 100%;
+	border: 2px solid black;
+	background: grey;
+	margin-right: 15px;
+	margin-left: 15px;
+	
+	
+	
+
+	
+	
+}
+
+.boxTitle{
+	padding: 0px;
+	text-align: right;
+	border-left: 2px solid black;
+	border-bottom:  2px solid black;
+	margin: 0px;
+	padding: 5px;
+	float:  right;
+	font-family: Georgia, Arial, "Times New Roman", sans-serif;
+	font-size: 125%;
+
+	
+}
+
+.title1{
+	background-color: hotpink;
+}
+
+.title2{
+	background-color: orangered;
+}
+
+.title3{
+	background-color: yellow;
+}
+
+.boxContent{
+	float: left;
+	clear:  right;
+	padding: 3px;
+	font-size: 100%;
+	
+}
+
+
+
+
+@media (min-width: 920px){
+.boxContainer{
+
+	
+	width: 33.33%;
+	float: left;
+	
+	
+	
+
+}
+}
+
+
+
+@media (min-width: 768px ) and (max-width: 991px){
+
+.boxContainer1{
+
+	
+	width: 50%;
+	float: left;
+	
+	
+
+}
+
+
+.boxContainer2{
+	width: 100%;
+	float: left;
+	
+	
+}
+
+
+}
+
+
+@media(max-width: 767){
+
+
+.boxContainer{
+	width: 100%;
+	float: left;
+	
+
+}
+
+.boxContainer1{
+	width: 100%;
+	float: left;
+	
+
+	}
+.boxContainer2{
+	width: 100%;
+	float: left;
+	
+}
+
+}
+
+
