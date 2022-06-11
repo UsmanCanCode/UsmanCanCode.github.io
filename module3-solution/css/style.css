@@ -1,0 +1,36 @@
+.navbar-brand{
+	color: white;
+	font-size: 42px;
+}
+.navbar-brand:hover{
+	color: green;
+}
+
+.navbar-nav{
+	margin-left: auto;
+	margin-right: 10px;
+	
+}
+
+.nav-link{
+	color: white;
+}
+
+#navItems{
+	text-align: center;
+}
+
+#pTitle{
+	text-align: center;	
+	font-style: italic;
+
+}
+
+.divContent{
+	margin-top: 20px;
+	background: grey;
+	border: 2px solid black;
+	padding: 10px;
+	
+}
+
