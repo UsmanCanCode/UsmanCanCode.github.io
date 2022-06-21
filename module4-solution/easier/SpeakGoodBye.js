@@ -36,3 +36,5 @@ window.byeSpeaker = byeSpeaker;
 
 
 })(window);
+
+//upadted
