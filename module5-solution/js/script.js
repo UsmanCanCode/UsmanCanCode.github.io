@@ -114,7 +114,8 @@ function buildAndShowHomeHTML (categories) {
       // Hint: you need to surround the chosen category short name with something before inserting
       // it into the home html snippet.
       //
-        var propValue = "\" + chosenCategoryShortName + \"";
+        var propValue = "" + chosenCategoryShortName + "";
+        console.log(propValue);
        var homeHtmlInsert = insertProperty(homeHtml, "randomCategoryShortName", propValue );
 
 
@@ -122,7 +123,7 @@ function buildAndShowHomeHTML (categories) {
       // Use the existing insertHtml function for that purpose. Look through this code for an example
       // of how to do that.
       // ....
-      insertHtml("main-content", homeHtmlInsert);
+      insertHtml("#main-content", homeHtmlInsert);
 
     },
     false); // False here because we are getting just regular HTML from the server, so no need to process JSON.
